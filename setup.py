@@ -5,6 +5,7 @@ setup(
     name='iterm_convert',
     version='0.1',
     description='iTerm color scheme conversion tools',
+    keywords='iterm convert color scheme',
     url='http://github.com/davesque/iterm-convert',
     author='David Sanders',
     author_email='davesque@gmail.com',
@@ -13,6 +14,7 @@ setup(
     install_requires=[
         'lxml',
         'cssselect',
+        'pyyaml',
     ],
     zip_safe=False,
 )
