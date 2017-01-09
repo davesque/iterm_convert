@@ -1,6 +1,6 @@
-# iTerm color scheme conversion tools
+# iTerm-convert
 
-Tools for converting iTerm XML color schemes to color scheme formats the
+Tools for converting iTerm XML color schemes to color scheme formats for the
 following terminal emulator:
 
 * Alacritty
