@@ -1,6 +1,15 @@
-# iTerm color scheme conversion tools for Windows
+# iTerm color scheme conversion tools
 
-Two simple scripts for converting iTerm color schemes into color schemes for
-PuTTY or the Windows console.  Schemes are output in the form of Windows
-registry scripts.  For generated PuTTY registry scripts, you must insert the
-name of the saved PuTTY session for which the color scheme should be modified.
+Tools for converting iTerm color schemes to the following terminal emulators:
+
+* PuTTY
+* Windows console
+
+## Example usage
+
+```bash
+python setup.py install
+
+python -m iterm_convert.putty < hybrid.itermcolors > hybrid-putty.reg
+python -m iterm_convert.windows_console < hybrid.itermcolors > hybrid-console.reg
+```
